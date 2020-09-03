@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "7f70be68-46b3-4278-8674-f7e4010ac229",
+		"name": "mybank",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"description": "version=1.0 - This is a es-estore API description"
+	},
+	"item": [
+		{
+			"name": "my-bank",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://mybank-applicants-mybank-operator.gbs-mea-1589687428437-f72ef11f3ab089a8c677044eb28292cd-0000.au-syd.containers.appdomain.cloud/api/v1/app/default/applicants",
+					"protocol": "https",
+					"host": [
+						"mybank-applicants-mybank-operator",
+						"gbs-mea-1589687428437-f72ef11f3ab089a8c677044eb28292cd-0000",
+						"au-syd",
+						"containers",
+						"appdomain",
+						"cloud"
+					],
+					"path": [
+						"api",
+						"v1",
+						"app",
+						"default",
+						"applicants"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
